@@ -61,6 +61,10 @@ function App() {
     read();
   };
 
+  const handleRemove = (e) => {
+    console.log(e.target);
+  };
+
   useEffect(() => {
     console.log(fireStore);
 
@@ -76,6 +80,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={handleAdd}>add</button>
+      <button onClick={handleRemove}>delete</button>
       <ul>
         {topics.map((topic) => {
           return (

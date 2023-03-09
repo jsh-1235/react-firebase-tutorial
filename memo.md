@@ -53,3 +53,7 @@
   }
 }
 ```
+
+## GitHub
+
+- For which GitHub repository would you like to set up a GitHub workflow? (format: user/repository) jsh-1235/react-firebase-tutorial
