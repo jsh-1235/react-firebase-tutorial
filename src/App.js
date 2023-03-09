@@ -80,7 +80,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={handleAdd}>add</button>
-      <button onClick={handleRemove}>delete</button>
+      <button onClick={handleRemove}>remove</button>
       <ul>
         {topics.map((topic) => {
           return (
